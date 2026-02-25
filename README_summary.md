@@ -79,20 +79,7 @@ ALBEF base → Diffusion Augmentation (hard negatives)
 | **Proposed system (all enhancements)** | **~84–86%** |
 | Human performance | ~95% |
 
----
 
-## Repository Structure
-
-```
-├── A2_data/                  # Images and JSONL annotation files
-├── notebooks/
-│   ├── phase0_snli_pretrain.ipynb
-│   ├── phase1_transfer.ipynb
-│   ├── phase3a_text_finetune.ipynb   ← best model
-│   └── error_analysis.ipynb
-├── models/                   # Saved checkpoints
-├── A2_test_predictions.csv   # Final test set predictions
-└── README.md
 ```
 
 ## Tech Stack
